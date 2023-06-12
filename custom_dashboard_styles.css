@@ -1,0 +1,92 @@
+.custom-dashboard {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #263EED;
+  font-size: 2.8em;
+}
+p {
+  font-size: 1.2em;
+}
+table {
+  width: 60%;
+}
+
+a {
+  color: #263EED;
+  text-decoration: none;
+}
+
+.contact-form {
+  width: 50%;
+  border: 1px solid #263EED;
+  padding: 1em;
+  border-radius: 6px;
+  background-color: #000;
+}
+
+.contact-form input {
+  margin-bottom: 1em;
+}
+
+.contact-form input:last-child {
+  margin-bottom: 0;
+}
+
+.contact-form input[type="submit" i] {
+  background-color: #000;
+  border: 1px solid #263EED;
+  margin-top: 1em;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form input[type="submit" i]:hover {
+  background-color: #263EED;
+  color: #fff;
+}
+
+.success {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  width: 50%;
+  padding: 1em;
+  border: 1px solid #26ED66;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.error {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  width: 50%;
+  padding: 1em;
+  border: 1px solid #ED3326;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
+  table {
+    width: 90%;
+  }
+
+  .success {
+    width: 90%;
+  }
+
+  .error {
+    width: 90%;
+  }
+}
